@@ -4,7 +4,7 @@ from pathlib import Path
 from html import escape as e
 import json, shutil, posixpath, re
 ROOT=Path(__file__).resolve().parents[1]
-SRC=ROOT/'src';DIST=ROOT/'dist'
+SRC=ROOT/'src';OUTPUT=ROOT
 content=json.loads((SRC/'content.json').read_text());cfg=json.loads((SRC/'config.json').read_text())
 def route(locale,kind='home'):
  prefix=content[locale]['prefix'];return '/'+prefix+('' if kind=='home' else kind+'/')
@@ -42,13 +42,16 @@ def document(locale,kind):
  footer=f'<footer class="footer wrap"><a class="wordmark" href="{base}">{c["name"]}</a><p>© {cfg["year"]} {cfg["developer"]}</p><div><a href="{route(locale,"support")}">{c["support"]}</a><a href="{route(locale,"privacy")}">{c["privacy"]}</a></div></footer>'
  return portable_links(f'''<!doctype html>
 <html lang="{c['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#FCF3E9"><title>{title}</title><meta name="description" content="{e(desc,quote=True)}"><link rel="canonical" href="{cfg['origin']}{page}">{alt}<link rel="alternate" hreflang="x-default" href="{cfg['origin']}{route('en-US',kind)}"><meta property="og:title" content="{title}"><meta property="og:description" content="{e(desc,quote=True)}"><meta property="og:type" content="website"><meta property="og:url" content="{cfg['origin']}{page}"><meta property="og:image" content="{cfg['origin']}/assets/icon-1024.png"><link rel="icon" type="image/png" href="/assets/favicon.png"><link rel="apple-touch-icon" href="/assets/icon-192.png"><link rel="stylesheet" href="/assets/style.css"></head><body>{header}{body}{footer}</body></html>''', page)
-DIST.mkdir(exist_ok=True)
+OUTPUT.mkdir(exist_ok=True)
 for locale in content:
  for kind in ['home','support','privacy']:
-  p=DIST/route(locale,kind).lstrip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(document(locale,kind))
-shutil.copy2(SRC/'style.css',DIST/'assets/style.css')
+  p=OUTPUT/route(locale,kind).lstrip('/')/'index.html';p.parent.mkdir(parents=True,exist_ok=True);p.write_text(document(locale,kind))
+shutil.copy2(SRC/'style.css',OUTPUT/'assets/style.css')
 urls=[cfg['origin']+route(l,k) for l in content for k in ['home','support','privacy']]
-(DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>\n')
-(DIST/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+cfg['origin']+'/sitemap.xml\n')
-(DIST/'404.html').write_text(portable_links('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found · Carflow Puzzle</title><link rel="stylesheet" href="/assets/style.css"><main class="reading wrap"><h1>Page not found</h1><a class="button" href="/">Carflow Puzzle →</a></main></html>', '/'))
-print('Built 9 static pages, 404, sitemap and robots. No deployment.')
+(OUTPUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+u+'</loc></url>' for u in urls)+'</urlset>\n')
+(OUTPUT/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+cfg['origin']+'/sitemap.xml\n')
+# Inline styling and an absolute home link also work at deep missing URLs.
+style=(SRC/'style.css').read_text()
+(OUTPUT/'404.html').write_text(f'''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><meta name="theme-color" content="#FCF3E9"><title>Page not found · Carflow Puzzle</title><style>{style}</style></head><body><main class="reading wrap"><p class="eyebrow">404 / CARFLOW PUZZLE</p><h1>Page not found</h1><p class="lead">This page may have moved. Let’s get you back to the little cars.</p><a class="button" href="{cfg['origin']}/">Carflow Puzzle →</a></main></body></html>''')
+print('Built 9 pages, inline-styled 404, sitemap and robots at the repository root.')

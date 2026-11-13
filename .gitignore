@@ -28,4 +28,4 @@ venv/
 *~
 *.log
 
-# Keep src/, scripts/, and dist/ in the public repository.
+# Keep src/, scripts/, assets/, and generated root pages in the public repository.
