@@ -1,0 +1,338 @@
+{
+  "en-US": {
+    "lang": "en",
+    "prefix": "",
+    "name": "Carflow Puzzle",
+    "support": "Support",
+    "privacy": "Privacy",
+    "home": "Home",
+    "skip": "Skip to content",
+    "languages": "Language",
+    "eyebrow": "A LITTLE ROOM TO THINK",
+    "headline": [
+      "Small cars.",
+      "Clever <em>moves.</em>"
+    ],
+    "intro": "A cozy logic puzzle about routes, timing, and leaving just enough space. Take a look. Think it through. Let the little cars go.",
+    "coming": "Coming to the App Store",
+    "trial": "Try 12 levels free. Unlock 48 more with one purchase.",
+    "screenshot_alt": "Native iPhone gameplay: level 10 with a selected purple car and its full yellow route.",
+    "caption": "A real puzzle. Every car has its own way out.",
+    "how_label": "01 / FIND YOUR FLOW",
+    "how_title": "A simple tap. A thoughtful choice.",
+    "steps": [
+      [
+        "Look at the whole route",
+        "Tap any car to trace its yellow path. It might loop around or pass an exit before heading out."
+      ],
+      [
+        "Leave a little space",
+        "Only the front car can move. Keep room in the next lane, and choose who should go first."
+      ],
+      [
+        "Try another way",
+        "Undo a move or restart the puzzle. There is no timer, so an idea can take as long as it needs."
+      ]
+    ],
+    "level_label": "02 / ONE LITTLE JOURNEY",
+    "level_title": "60 puzzles.<br>One car at a time.",
+    "level_body": "Short, hands-on introductions lead to loops, shared lanes, and junctions where a little space changes everything.",
+    "free": "12 free levels",
+    "paid": "48 more to unlock",
+    "purchase": "A one-time in-app purchase permanently unlocks the current levels 13–60. No subscription. Family Sharing supported, subject to Apple’s settings. Future levels are not included in this promise.",
+    "features": [
+      "Play offline",
+      "No game account",
+      "Saved on your device"
+    ],
+    "offline": "Purchases and restoring purchases need access to Apple services. Game progress does not sync between devices.",
+    "help_title": "A little help along the way.",
+    "help_body": "Questions about a puzzle, a purchase, or picking up where you left off? We’re here.",
+    "help_cta": "Visit support",
+    "policy_date": "Effective November 13, 2026",
+    "support_intro": "How to play, keep your progress, and restore the full game.",
+    "contact_title": "Still need a hand?",
+    "contact_body": "Email your device model, iOS version, and a short description of the problem. A screenshot is optional. Please do not send passwords or payment details.",
+    "faq": [
+      [
+        "How do I move a car?",
+        "Tap a car to view its full route. Tap it again, or tap Go, to move. Only the front car can leave a lane. If the next lane is full, make space first."
+      ],
+      [
+        "Can I undo or start again?",
+        "Yes. Use Undo to take back a move, or Restart to reset the current puzzle. There is no timer."
+      ],
+      [
+        "Where is my progress saved?",
+        "Progress and language/sound preferences stay on your device. There is no game account or cloud sync. Removing the app or clearing its data may erase progress. Restoring a purchase restores paid access, not game progress."
+      ],
+      [
+        "What is free, and what does the purchase unlock?",
+        "Levels 1–12 are free. One non-consumable purchase permanently unlocks the current levels 13–60, a total of 48 extra levels. There is no subscription and no promise of future content. See the in-game Apple price for your region."
+      ],
+      [
+        "How do I restore a purchase?",
+        "Connect to the internet and use the Apple Account that made the purchase. Open the three-dot More menu and choose Restore purchases, or use Restore purchases on the purchase screen. If nothing is found, check your Apple Account and retry. Family Sharing depends on Apple’s family settings and eligibility."
+      ],
+      [
+        "Can I play without the internet?",
+        "Yes, gameplay is offline and no gameplay data is uploaded. Purchasing and restoring use Apple services and need a connection. If paid access cannot be verified, retry the purchase check or restore; the first 12 levels remain available."
+      ],
+      [
+        "How do I change sound or language?",
+        "Open the three-dot More menu. Sound switches both music and effects. Language offers English, Simplified Chinese, and Traditional Chinese without resetting the puzzle."
+      ]
+    ],
+    "policy_intro": "Carflow Puzzle is a single-player game by Funvalvar. We do not collect or upload your gameplay data.",
+    "policy": [
+      [
+        "Local game data",
+        "Your progress, completed levels, saved puzzle state, and language/sound preferences are stored on your device. We do not receive them. There is no game account, game server, cloud sync, analytics, advertising, tracking, or hosted gameplay logs."
+      ],
+      [
+        "Apple purchases",
+        "Apple processes in-app payments and purchase restoration through StoreKit. The app checks Apple-verified transactions to unlock levels 13–60. We do not receive your payment card details or operate a purchase receipt server. Apple handles transaction information under its own privacy policy."
+      ],
+      [
+        "If you email us",
+        "If you choose to contact funvalvar@proton.me, we receive your email address, message, and any attachments you send. We use them to answer your support request. Email is optional and is not required to play. Do not include passwords or payment details."
+      ],
+      [
+        "Retention and deletion",
+        "Local game data stays on your device until removed through device storage controls, including uninstalling the app. This may erase your progress and does not cancel an Apple purchase. Support correspondence is kept only as needed to resolve your request and meet applicable obligations. Email us to request deletion of correspondence."
+      ],
+      [
+        "This website",
+        "This static site has no analytics, tracking scripts, cookies, account system, contact form, or data upload feature. Support links open your own email application."
+      ],
+      [
+        "Changes and contact",
+        "We will update this page if our practices change and show the effective date above. For privacy questions or requests, contact Funvalvar at funvalvar@proton.me."
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "lang": "zh-Hans",
+    "prefix": "zh-Hans/",
+    "name": "小车通通",
+    "support": "支持",
+    "privacy": "隐私政策",
+    "home": "首页",
+    "skip": "跳到正文",
+    "languages": "语言",
+    "eyebrow": "给思考，留一点空位",
+    "headline": [
+      "小车通通，",
+      "慢慢<em>想通。</em>"
+    ],
+    "intro": "看清路线，安排顺序，留出刚刚好的空位。一款可以慢慢琢磨的单机逻辑解谜游戏，让每辆小车找到自己的出口。",
+    "coming": "即将登陆 App Store",
+    "trial": "前12关免费体验，一次购买解锁额外48关。",
+    "screenshot_alt": "iPhone原生游戏画面：第10关，选中的紫色小车及完整黄色路线。",
+    "caption": "每一辆小车，都有自己的路线。",
+    "how_label": "01 / 找到通行的节奏",
+    "how_title": "轻轻一点，想好下一步。",
+    "steps": [
+      [
+        "先看完整路线",
+        "点选小车，沿着黄线看一遍。它可能绕回来，也可能路过一个出口继续前行。"
+      ],
+      [
+        "留出一点空位",
+        "只有队首能走。看好下一条车道的空位，决定谁先出发，谁再等一等。"
+      ],
+      [
+        "换个顺序试试",
+        "走错了可以撤销，也可以重开这一关。没有计时，每个想法都来得及慢慢试。"
+      ]
+    ],
+    "level_label": "02 / 一段小小的旅程",
+    "level_title": "60道谜题，<br>一辆一辆想通。",
+    "level_body": "从简短的上手练习，到环路、共用车道和交叉路口。一点空位的变化，就可能带来不同的通行结果。",
+    "free": "12关免费体验",
+    "paid": "额外48关，一次解锁",
+    "purchase": "一次应用内购买，永久解锁当前第13—60关。无订阅，支持家庭共享，具体以Apple的共享设置为准。不承诺未来新增内容。",
+    "features": [
+      "离线游玩",
+      "无需游戏账号",
+      "进度保存在本机"
+    ],
+    "offline": "购买和恢复购买需要连接Apple服务。游玩进度不会在设备之间同步。",
+    "help_title": "路上遇到问题？",
+    "help_body": "关于玩法、购买，或怎样继续上次的进度，都可以在这里找到帮助。",
+    "help_cta": "查看支持",
+    "policy_date": "生效日期：2026年11月13日",
+    "support_intro": "了解玩法、本地进度，以及如何恢复完整版购买。",
+    "contact_title": "还需要帮忙？",
+    "contact_body": "请在邮件中提供设备型号、iOS版本和问题描述，也可自愿附上截图。请勿发送密码或付款信息。",
+    "faq": [
+      [
+        "怎样让小车前进？",
+        "点选小车查看完整路线，再点同一辆车，或点击“放行”。只有车道队首可以走；如果下一条车道已满，需要先腾出空位。"
+      ],
+      [
+        "走错了可以撤销吗？",
+        "可以。点击“撤销”返回上一步，点击“重开”重新开始当前关卡。游戏没有计时。"
+      ],
+      [
+        "进度保存在哪里？",
+        "进度、语言和声音偏好只保存在当前设备。没有游戏账号或云同步。卸载游戏或清除应用数据可能丢失进度。恢复购买只能恢复付费关卡的访问资格，不能恢复游玩进度。"
+      ],
+      [
+        "哪些关卡免费？购买包含什么？",
+        "第1—12关免费体验。一次非消耗型应用内购买，永久解锁当前第13—60关，共48关。无订阅，不承诺未来新增内容。价格以游戏内Apple显示的当地价格为准。"
+      ],
+      [
+        "如何恢复购买？",
+        "请联网并使用原购买Apple账户，进入顶部三点“更多”→“恢复购买”，或在购买页点击“恢复购买”。未找到记录时请检查Apple账户后重试。家庭共享以Apple的家庭设置和资格为准。"
+      ],
+      [
+        "可以离线游玩吗？",
+        "可以，游玩无需联网，不会上传游玩数据。购买和恢复购买需要连接Apple服务；若无法验证付费访问资格，可重试检查或恢复购买，前12关仍可游玩。"
+      ],
+      [
+        "如何调整声音或语言？",
+        "打开顶部三点“更多”。声音开关同时控制音乐和音效；语言菜单可选择简体中文、繁體中文或English，不会重置棋局。"
+      ]
+    ],
+    "policy_intro": "《小车通通》是Funvalvar开发的单机游戏。我们不收集或上传你的游玩数据。",
+    "policy": [
+      [
+        "本地游戏数据",
+        "进度、通关记录、当前棋局和语言／声音偏好保存在你的设备上，我们无法接收这些数据。游戏没有账号、游戏服务器、云同步、统计分析、广告、跟踪或托管游玩日志。"
+      ],
+      [
+        "Apple购买",
+        "应用内支付和恢复购买由Apple通过StoreKit处理。游戏读取Apple已验证交易，用于解锁第13—60关。我们不会接收银行卡信息，也没有购买回执服务器。Apple依照其自身隐私政策处理交易信息。"
+      ],
+      [
+        "主动邮件联系",
+        "如果你主动向funvalvar@proton.me发送邮件，我们会收到你的邮箱地址、邮件内容及你自愿附上的文件，仅用于处理支持请求。邮件联系完全自愿，不是游玩的条件。请勿提供密码或付款信息。"
+      ],
+      [
+        "保留与删除",
+        "本地游戏数据保留在你的设备上，直到通过设备存储管理（包括卸载应用）移除；这可能删除游戏进度，但不会取消Apple购买。支持邮件仅在处理请求及履行适用义务所需的期间保留。你可通过邮件请求删除支持往来。"
+      ],
+      [
+        "本网站",
+        "本静态网站没有统计分析、跟踪脚本、Cookie、账号系统、联系表单或数据上传功能。支持链接会打开你自己的邮件应用。"
+      ],
+      [
+        "更新与联系",
+        "如果处理方式发生变化，我们会更新本页及生效日期。有关隐私问题或请求，请联系Funvalvar：funvalvar@proton.me。"
+      ]
+    ]
+  },
+  "zh-Hant": {
+    "lang": "zh-Hant",
+    "prefix": "zh-Hant/",
+    "name": "小車通通",
+    "support": "支援",
+    "privacy": "隱私權政策",
+    "home": "首頁",
+    "skip": "跳到正文",
+    "languages": "語言",
+    "eyebrow": "給思考，留一點空位",
+    "headline": [
+      "小車通通，",
+      "慢慢<em>想通。</em>"
+    ],
+    "intro": "看清路線，安排順序，留出剛剛好的空位。一款可以慢慢琢磨的單機邏輯解謎遊戲，讓每輛小車找到自己的出口。",
+    "coming": "即將登陸 App Store",
+    "trial": "前12關免費體驗，一次購買解鎖額外48關。",
+    "screenshot_alt": "iPhone原生遊戲畫面：第10關，選中的紫色小車及完整黃色路線。",
+    "caption": "每一輛小車，都有自己的路線。",
+    "how_label": "01 / 找到通行的節奏",
+    "how_title": "輕輕一點，想好下一步。",
+    "steps": [
+      [
+        "先看完整路線",
+        "點選小車，沿著黃線看一遍。它可能繞回來，也可能路過一個出口繼續前行。"
+      ],
+      [
+        "留出一點空位",
+        "只有隊首能走。看好下一條車道的空位，決定誰先出發，誰再等一等。"
+      ],
+      [
+        "換個順序試試",
+        "走錯了可以復原，也可以重來這一關。沒有計時，每個想法都來得及慢慢試。"
+      ]
+    ],
+    "level_label": "02 / 一段小小的旅程",
+    "level_title": "60道謎題，<br>一輛一輛想通。",
+    "level_body": "從簡短的上手練習，到環路、共用車道和交叉路口。一點空位的變化，就可能帶來不同的通行結果。",
+    "free": "12關免費體驗",
+    "paid": "額外48關，一次解鎖",
+    "purchase": "一次App內購買，永久解鎖目前第13—60關。無訂閱，支援家庭共享，具體以Apple的共享設定為準。不承諾未來新增內容。",
+    "features": [
+      "離線遊玩",
+      "無需遊戲帳號",
+      "進度儲存在本機"
+    ],
+    "offline": "購買和恢復購買需要連接Apple服務。遊玩進度不會在裝置之間同步。",
+    "help_title": "路上遇到問題？",
+    "help_body": "關於玩法、購買，或怎樣繼續上次的進度，都可以在這裡找到協助。",
+    "help_cta": "查看支援",
+    "policy_date": "生效日期：2026年11月13日",
+    "support_intro": "了解玩法、本地進度，以及如何恢復完整版購買。",
+    "contact_title": "還需要幫忙？",
+    "contact_body": "請在郵件中提供裝置型號、iOS版本和問題描述，也可自願附上截圖。請勿傳送密碼或付款資訊。",
+    "faq": [
+      [
+        "怎樣讓小車前進？",
+        "點選小車查看完整路線，再點同一輛車，或點擊「放行」。只有車道隊首可以走；如果下一條車道已滿，需要先騰出空位。"
+      ],
+      [
+        "走錯了可以復原嗎？",
+        "可以。點擊「復原」返回上一步，點擊「重來」重新開始目前關卡。遊戲沒有計時。"
+      ],
+      [
+        "進度儲存在哪裡？",
+        "進度、語言和聲音偏好只儲存在目前裝置。沒有遊戲帳號或雲端同步。解除安裝遊戲或清除App資料可能遺失進度。恢復購買只能恢復付費關卡的存取資格，不能恢復遊玩進度。"
+      ],
+      [
+        "哪些關卡免費？購買包含什麼？",
+        "第1—12關免費體驗。一次非消耗型App內購買，永久解鎖目前第13—60關，共48關。無訂閱，不承諾未來新增內容。價格以遊戲內Apple顯示的當地價格為準。"
+      ],
+      [
+        "如何恢復購買？",
+        "請連線並使用原購買Apple帳戶，進入頂部三點「更多」→「恢復購買」，或在購買頁點擊「恢復購買」。未找到記錄時請檢查Apple帳戶後重試。家庭共享以Apple的家庭設定和資格為準。"
+      ],
+      [
+        "可以離線遊玩嗎？",
+        "可以，遊玩無需連線，不會上傳遊玩資料。購買和恢復購買需要連接Apple服務；若無法驗證付費存取資格，可重試檢查或恢復購買，前12關仍可遊玩。"
+      ],
+      [
+        "如何調整聲音或語言？",
+        "打開頂部三點「更多」。聲音開關同時控制音樂和音效；語言選單可選擇繁體中文、简体中文或English，不會重置棋局。"
+      ]
+    ],
+    "policy_intro": "《小車通通》是Funvalvar開發的單機遊戲。我們不收集或上傳你的遊玩資料。",
+    "policy": [
+      [
+        "本地遊戲資料",
+        "進度、通關記錄、目前棋局和語言／聲音偏好儲存在你的裝置上，我們無法接收這些資料。遊戲沒有帳號、遊戲伺服器、雲端同步、統計分析、廣告、追蹤或託管遊玩日誌。"
+      ],
+      [
+        "Apple購買",
+        "App內付款和恢復購買由Apple透過StoreKit處理。遊戲讀取Apple已驗證交易，用於解鎖第13—60關。我們不會接收銀行卡資訊，也沒有購買收據伺服器。Apple依照其自身隱私權政策處理交易資訊。"
+      ],
+      [
+        "主動郵件聯絡",
+        "如果你主動向funvalvar@proton.me傳送郵件，我們會收到你的信箱地址、郵件內容及你自願附上的檔案，僅用於處理支援請求。郵件聯絡完全自願，不是遊玩的條件。請勿提供密碼或付款資訊。"
+      ],
+      [
+        "保留與刪除",
+        "本地遊戲資料保留在你的裝置上，直到透過裝置儲存空間管理（包括解除安裝App）移除；這可能刪除遊戲進度，但不會取消Apple購買。支援郵件僅在處理請求及履行適用義務所需的期間保留。你可透過郵件請求刪除支援往來。"
+      ],
+      [
+        "本網站",
+        "本靜態網站沒有統計分析、追蹤指令碼、Cookie、帳號系統、聯絡表單或資料上傳功能。支援連結會打開你自己的郵件App。"
+      ],
+      [
+        "更新與聯絡",
+        "如果處理方式發生變化，我們會更新本頁及生效日期。有關隱私問題或請求，請聯絡Funvalvar：funvalvar@proton.me。"
+      ]
+    ]
+  }
+}

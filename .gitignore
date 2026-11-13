@@ -1,0 +1,31 @@
+# macOS Finder metadata and archive artifacts
+.DS_Store
+._*
+__MACOSX/
+
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and credentials (src/config.json is public site config)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+
+# Editor state, temporary files and local logs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.log
+
+# Keep src/, scripts/, and dist/ in the public repository.
