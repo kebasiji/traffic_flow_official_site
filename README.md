@@ -17,6 +17,8 @@
 
 本仓库仅包含官网，不包含游戏工程、关卡定义、应用构建包或审核资料。
 
+静态页面通过Content Security Policy禁止脚本执行及脚本网络连接，避免CDN自动注入的统计脚本运行。公开支持邮箱使用Cloudflare支持的`email_off`标记，保持邮箱正文与`mailto:`链接无需JavaScript也可使用；不更改DNS或Cloudflare账号设置。
+
 ## 本地预览
 
 使用Python 3.9或更高版本，在仓库根目录运行：

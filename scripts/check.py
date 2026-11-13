@@ -32,6 +32,9 @@ for locale, language in content.items():
         page = Page()
         page.feed(text)
         assert sum(tag == 'h1' for tag, attrs in page.tags) == 1, file
+        policies = [attrs['content'] for tag, attrs in page.tags if tag == 'meta' and attrs.get('http-equiv') == 'Content-Security-Policy']
+        assert len(policies) == 1 and "script-src 'none'" in policies[0] and "connect-src 'none'" in policies[0], file
+        assert '<body><!--email_off-->' in text and '<!--/email_off--></body>' in text, file
         assert any(tag == 'html' and attrs.get('lang') == language['lang'] for tag, attrs in page.tags), file
         assert not any(tag in ['script', 'form', 'iframe'] for tag, attrs in page.tags), file
         if kind in ['support', 'privacy']:
@@ -67,6 +70,7 @@ for locale, language in content.items():
 not_found = Page()
 not_found.feed((ROOT / '404.html').read_text())
 assert any(tag == 'style' for tag, attrs in not_found.tags), '404 must not rely on relative styles'
+assert any(tag == 'meta' and attrs.get('http-equiv') == 'Content-Security-Policy' and "script-src 'none'" in attrs.get('content', '') for tag, attrs in not_found.tags)
 assert not any(tag in ['img', 'script'] or tag == 'link' and attrs.get('rel') == 'stylesheet' for tag, attrs in not_found.tags)
 assert any(tag == 'a' and attrs.get('href') == config['origin'] + '/' for tag, attrs in not_found.tags)
 assert len(results) == 9
